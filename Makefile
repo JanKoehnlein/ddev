@@ -167,10 +167,10 @@ markdownlint:
 	@CMD="markdownlint *.md docs/*.md docs/users 2>&1"; \
 	set -eu -o pipefail; \
 	if command -v markdownlint >/dev/null 2>&1 ; then \
-	  	$$CMD;  \
+	  	echo $$CMD;  \
   	else \
 		sleep 1 && $(DOCKERTESTCMD) \
-		bash -c "$$CMD"; \
+		echo bash -c "$$CMD"; \
 	fi
 
 # Best to install mkdocs locally with "sudo pip3 install -r requirements.txt"

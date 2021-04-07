@@ -13,11 +13,6 @@ tasks:
       make
   - name: docker_up
     command: sudo docker-up      
-
-vscode:
-  extensions:
-    - premparihar.gotestexplorer@0.1.10:jvUM8akrQ67vQxfjaxCgCg==
-
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)

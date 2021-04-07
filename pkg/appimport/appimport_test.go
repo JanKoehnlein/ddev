@@ -1,6 +1,7 @@
 package appimport_test
 
 import (
+	"fmt"
 	"path/filepath"
 	"testing"
 
@@ -16,6 +17,7 @@ import (
 
 // TestValidateAsset tests validation of asset paths.
 func TestValidateAsset(t *testing.T) {
+	fmt.Println("Foo")
 	assert := asrt.New(t)
 
 	cwd, err := os.Getwd()
