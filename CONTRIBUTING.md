@@ -11,6 +11,8 @@ If you find a bug in this project, have trouble following the documentation, or 
 
 ### Issues Pro Tips
 
+
+
 - **Check existing issues** for your issue. Duplicating an issue is slower for both parties, so search through open and closed issues to see if what you’re running into has been addressed already.
 - **Be clear** about what your problem is: What was the expected outcome? What happened instead? Detail how someone else can recreate the problem.
 - **Link to examples** recreate or display the problem with screenshots, screencasts, or code examples using [The Go Playground](https://play.golang.org). The better you can demonstrate the problem, the more attention your issue is likely to get.
