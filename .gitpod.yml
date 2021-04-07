@@ -4,7 +4,7 @@ image:
 
 tasks:
   - name: make
-    command: |
+    init: |
       # Wait for docker to come up before doing make (make requires docker)
       while ! docker ps; do
         sleep 1
@@ -12,7 +12,7 @@ tasks:
       .githooks/linkallchecks.sh
       make
   - name: docker_up
-    command: sudo docker-up      
+    init: sudo docker-up      
 
 vscode:
   extensions:
