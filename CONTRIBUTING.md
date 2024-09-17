@@ -4,9 +4,14 @@ The general workflow for contributing to this project is outlined in this docume
 
 ## Create an Issue
 
+
+
+
 If you find a bug in this project, have trouble following the documentation, or have a question about the project, create an issue! There’s nothing to it and whatever issue you’re having, you’re likely not the only one, so others will find your issue helpful, too. For more information on how issues work, check out GitHub's [Issues guide](http://guides.github.com/features/issues). Or there are lots of [other places for immediate support](https://ddev.readthedocs.io/en/stable/#support-and-user-contributed-documentation).
 
 ### Issues Pro Tips
+
+
 
 - **Check existing issues** for your issue. Duplicating an issue is slower for both parties, so search through open and closed issues to see if what you’re running into has been addressed already.
 - **Be clear** about what your problem is: What was the expected outcome? What happened instead? Detail how someone else can recreate the problem.
